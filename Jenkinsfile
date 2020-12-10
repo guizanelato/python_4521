@@ -13,7 +13,7 @@ pipeline {
         stage('checkout repo'){
             steps{
                 cleanWs()
-                git ""
+                git "https://github.com/guizanelato/python_4521.git"
             }
         }
         
